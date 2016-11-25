@@ -1,0 +1,153 @@
+/*
+**Mon, 11 Apr 2016 00:55:33 GMT**
+*/
+
+@charset "utf-8";
+
+body,header,figure,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,form,fieldset,legend,button,input,textarea,th,td,a,span,i,section,nav,footer,div{
+	margin: 0;
+	padding: 0;
+	font-family: "San Francisco","Microsoft YaHei","pingfang",Arial;
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 400;
+}
+
+body,button,input,select,textarea {
+	font: 12px/1.5 tahoma,arial,"Hiragino Sans GB","\5b8b\4f53",sans-serif;
+}
+
+body {
+	background: #FFF;
+	color: #333;
+}
+
+em,i {
+	font-style: normal;
+}
+
+fieldset,img {
+	border: none;
+}
+
+ul,ol,li {
+	list-style: none;
+	list-style-position: outside
+}
+
+button,input,select,textarea {
+	font-size: 100%;
+	outline: 0;
+}
+
+textarea {
+	resize: none;
+}
+
+table {
+	border-collapse: collapse;    /* --------边框合并--------  */
+	border-spacing: 0;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+	outline: 0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+p,span,em,strong {
+	word-break: break-all;   /* --------允许单词内换行--------  */
+	word-wrap: break-word;    /* --------在长单词或 URL 地址内部进行换行--------  */
+}
+
+.wrap{
+	width: 100%;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.clear {
+	clear: both;    /* ----------清除左右浮动------  */
+	display: block;
+	height: 0;
+	overflow: hidden;
+	font-size: 0;
+}
+
+.tl {
+	text-align: left;  /* ----------文字居左------  */
+}
+
+.tc {
+	text-align: center;
+}
+
+.tr {
+	text-align: right;
+}
+
+.fl {
+	float: left;
+	display: inline;
+}
+
+.fr {
+	float: right;
+	display: inline;
+}
+
+.oh{
+	overflow: hidden;    /* ---------超出部分隐藏和清除子级浮动对父级影响---------- */
+}
+.to-c{
+	text-overflow:clip; /* ---------------------超出部分剪切掉-------------------- */
+}
+.to-e{
+	text-overflow:ellipsis; /* ------------------超出部分以“...”显示----------------- */
+}
+.ws-n{
+	white-space:nowrap;   /* ------------------文本在一行显示(不换行)----------------- */
+}
+.db{
+	display: block;
+}
+.d-ib{
+	display: inline-block;
+}
+.dn{
+	display: none;
+}
+.pr {
+	position: relative;
+}
+
+.pa {
+	position: absolute;
+}
+.pf {
+	position: fixed;
+}
+.none {
+	display: none;/* ----------隐藏---------- */
+}
+.fontYH {
+	font-family: Microsoft YaHei,"\u5fae\u8f6f\u96c5\u9ed1",Microsoft JhengHei,"\u534e\u6587\u7ec6\u9ed1",STHeiti,MingLiu,Serif
+}
+.cp{
+	cursor: pointer;
+}
